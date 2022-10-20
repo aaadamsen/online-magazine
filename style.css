@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karma', serif;
+}
+html{
+    scroll-behavior: smooth;
+
+
+}
+html {
+    background: url(images/banner.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+  }
+.bg {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  .bg {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+  }
+  .bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
+
+
+.header{
+    min-width: 100px;
+    width: 100%;
+    background-position: center;
+    position: relative;
+    padding: 10px;
+    background:rgb(245, 191, 227);;
+    color:rgb(245, 191, 227);
+}
+
+.box{
+    background: url(images/banner1.jpg);
+
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 90px;
+}
+
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 16px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: rgb(57,169,246);
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: rgb(57,169,246);
+    display: block;
+    margin: auto;
+    transition: 0.6s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.text-box {
+    width: 90%;
+    color: rgb(245, 191, 227);
+    position: absolute;
+    top: 210%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.miniheader {
+    color: rgb(57,169,246);
+    font-size: 25px;
+}
+.text-box h1{
+    font-size: 70px;
+}
+.text-box button{
+    margin-bottom: 50px;
+    color: white;
+    background-color:rgb(245, 191, 227);
+    border-color:rgb(57,169,246);;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    border-radius: 40px;
+    border-width: 2px;
+}
+.text-box button:hover{
+    border: 1px solid rgb(57,169,246);
+    background: rgb(57,169,246);
+    transition: 1s;
+    border-width: 6px;
+    
+
+}
+/*-------- Tips --------*/
+
+
+.tips-meny {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top:20px;
+    font-family: 'Karma', serif;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(245, 191, 227);
+    padding-bottom: 30px;
+}
+
+
+
+p{
+    color:white;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    font-family:'Karma', serif;
+}
+.headtips {
+    color: rgb(245, 191, 227); 
+    font-size: 30px;
+}
+.tips-colum{
+    float: left;
+    width: 20%;
+    border-radius: 5px;
+    margin: 20px;
+  }
+.row {
+    column-gap: 80px;
+}
+ 
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .tips-colum {
+      width: 100%;
+    }
+  }
+
+
+
+/*-------- Ugens ferie --------*/
+
+.thai-info {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top:20px;
+    font-family: 'Karma', serif;
+}
+
+.html{
+    background-image: url(images/banner2.png);
+  }
+
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(245, 191, 227);
+    color: white;
+    text-align: center;
+  }
+
+.thai-info h3{
+    color: white;
+}
+.thai-info h1 {
+    font-size: 45px;
+    font-weight: 600;
+    color: rgb(245, 191, 227);
+    padding-bottom: 30px;
+}
+.food {
+    float: right;
+    width: 30%;
+    padding: 5px;
+  }
+  
+  .thailand-row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+
+.thailand-end{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top:20px;
+    font-family: 'Karma', serif
+}
+
+.bottompicture {
+    height: 200px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottompicture{
+border-radius: 50px;
+}
+
+.thailand-end p{
+    border-radius: 10px;
+}
+
+.footer img {
+height: 50px
+}
+
+/*-------- dags ture --------*/
+
+.elephants h3 {
+    color: white;
+    font-size: 23px;
+    padding-left: 25px;
+}
+.elephants p {
+    padding-left: 25px;
+    padding-top: 25px;
+
+}
+.dagsture {
+    padding-left: 25px;
+}
+.elephants img {
+    height: 400px;
+    float: right;
+    border-radius: 20px;
+    margin: 0px 0px 20px 20px;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.boat img {
+    height: 400px;
+    float: left;
+    margin: 15px 15px 15px 15px;
+    padding-bottom: 50px;
+}
+
+.tips.html {
+      background-image: url(images/banner3.png);
+    }
+
+.boat p {
+    padding-left: 25px;
+    padding-bottom: 250px;
+}
+.boat h3 {
+    color: white;
+    font-size: 23px;
+    padding-left: 25px;
+    padding-top: 70px
+}
+
+
+
+
+/*-------- spare tips --------*/
+.spare-row {
+    padding-left: 150px;
+    padding-right: 150px;
+    color: white;
+}
+
+.spare-row h1 {
+    color: white;
+    padding-top: 50px;
+}
+
+.spare-row p {
+    padding-left: 400px;
+    padding-top: 20px;
+    justify-content: right;
+}
+
+.spare-row h3 {
+    padding-left: 400px;
+}
+
+.spare-row img {
+    width: 236px;
+    height:304px;
+}
+
+
